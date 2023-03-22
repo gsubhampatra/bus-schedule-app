@@ -44,7 +44,7 @@ function formatBusData(busSchedules) {
 export const getBusData = async (selectedtime) => {
      
     await axios.post(
-      "nist-api.vercel.app/public/bus-schedules",
+      "",
       {
         "time_slots": [selectedtime],
         "slot_date": today,
